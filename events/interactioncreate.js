@@ -26,35 +26,3 @@ module.exports = {
         }
     }
 };
-
-//if (interaction.commandName === 'initialize') return;
-/*
-
-const dbServerID = await interaction.guildId;
-            const serverDb = await client.guildSettings.findOne({ where: { serverID: dbServerID } })*/
-
-/*async function executeCommand(interaction, command) {
-
-    
-
-}*/
-
-/*if (interaction.replied || interaction.deferred) {
-            try {
-                await interaction.editReply({ content: 'There was an error while executing this command!', ephemeral: true });
-                console.log("error lol")
-            }
-            catch (error) {
-                await interaction.editReply({ content: 'There was an error while executing this command!', ephemeral: true });
-                console.log(error)
-            }
-        } else {
-            try {
-                await interaction.editReply({ content: 'There was an error while executing this command!', ephemeral: true });
-                console.log("error lol")
-            }
-            catch (error) {
-                await interaction.editReply({ content: 'There was an error while executing this command!', ephemeral: true });
-                console.log(error)
-            }
-        }*/
