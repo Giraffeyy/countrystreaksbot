@@ -1,0 +1,5 @@
+.env
+config.json
+/node-modules
+deletecommands.js
+deploycommands.js
