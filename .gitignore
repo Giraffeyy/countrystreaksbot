@@ -1,5 +1,5 @@
 .env
 config.json
-/node-modules
+/node_modules
 deletecommands.js
 deploycommands.js
